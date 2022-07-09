@@ -1,0 +1,51 @@
+1.#include<stdio.h>
+int main(){
+    printf("Hellow students");
+    return 0;
+}
+2.#include<stdio.h>
+int main(){
+    printf("Hello\nStudents");
+    return 0;
+}
+
+3.#include<stdio.h>
+int main(){
+    printf(" \"MySirG\" ");
+    return 0;
+}
+
+4.#include<stdio.h>
+int main(){
+    float a;
+    int r;
+    printf("Enter radius of circle");
+    scanf("%d",&r);
+    a=3.14*r*r;
+    printf(" \"Area of a circle is %f having radius %d \" ",a,r);
+    return 0;
+}
+6.#include<stdio.h>
+#include<string.h>
+int main(){
+printf("\"Hello, Amit kumar\"");
+return 0;
+}
+10.#include<stdio.h>
+int main(){
+    int a,b,c;
+   printf("enter date");
+   scanf("%d/%d/%d",&a,&b,&c);
+   printf("Day=%d,Month=%d,Year=%d",a,b,c);
+   return 0;
+}
+11.#include<stdio.h>
+int main(){
+    int a,b;
+   printf("Enter time in HH:MM format:");
+   scanf("%d:%d",&a,&b);
+   printf("%d Hour and %d Minutes",a,b);
+   return 0;
+}
+
+12.ans is 7
